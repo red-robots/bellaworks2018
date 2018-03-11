@@ -1,0 +1,36 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+
+
+
+@mixin linearGradient() {
+	background: -moz-linear-gradient(0deg, rgba(8,88,132,1) 0%, rgba(24,116,166,1) 100%); /* ff3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(8,88,132,1)), color-stop(100%, rgba(24,116,166,1))); /* safari4+,chrome */
+	background: -webkit-linear-gradient(0deg, rgba(8,88,132,1) 0%, rgba(24,116,166,1) 100%); /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(0deg, rgba(8,88,132,1) 0%, rgba(24,116,166,1) 100%); /* opera 11.10+ */
+	background: -ms-linear-gradient(0deg, rgba(8,88,132,1) 0%, rgba(24,116,166,1) 100%); /* ie10+ */
+	background: linear-gradient(90deg, rgba(8,88,132,1) 0%, rgba(24,116,166,1) 100%); /* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#085884', endColorstr='#1874a6',GradientType=1 ); /* ie6-9 */
+}
