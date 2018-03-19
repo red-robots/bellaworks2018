@@ -28,7 +28,7 @@
 
 <script src="https://use.fontawesome.com/762c66dd2b.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Oxygen|Source+Sans+Pro:300,400" rel="stylesheet">
-<!-- <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet"> -->
+<script defer src="<?php bloginfo( 'template_url' ); ?>/assets/svg-with-js/js/fontawesome-all.js"></script>
 
 <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('template_url'); ?>/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/favicons/favicon-32x32.png" sizes="32x32">
@@ -90,7 +90,7 @@ src="https://www.facebook.com/tr?id=1107124109368587&ev=PageView&noscript=1"
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body class="preload">
 <div id="skrollr-body"></div>
 <div itemscope itemtype="http://schema.org/LocalBusiness" id="page" class="hfeed site">
 

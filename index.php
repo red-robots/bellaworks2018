@@ -52,49 +52,50 @@ We design a custom online presence branded to align with your company, engage wi
             
             <div class="homeboxes">
                 <div class="homebox wow fadeInUp">
-                    <div class="icon">
-                        <i class="far fa-code fa-5x wow rubberBand" data-wow-delay="1.5s"></i>
+                    <div class="icon wow rubberBand" data-wow-delay="1.5s">
+                        <i class="far fa-code fa-5x"></i>
                     </div>
                     <h2>Custom Design, Build, and Maintain your Website</h2>
                     <ul class="homelist">
-                        <li><a href="">Website Design and Development</a></li>
-                        <li><a href="">Website Hosting, Security, and Maintenance</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/services/website-design-development/#strategy">Custom Strategies</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/services/website-design-development/#next-level">New Sites, Redesigns</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/services/website-design-development/#process">Our Process</a></li>
                     </ul>
                     <div class="btn pillwhite">
-                        <a href="">
+                        <a href="<?php bloginfo('url'); ?>/services/website-design-development">
                             Start Now
                         </a>
                     </div>
                 </div>
                 <div class="homebox wow fadeInUp">
-                     <div class="icon">
-                        <i class="fal fa-comments fa-5x wow rubberBand" data-wow-delay="1.5s"></i>
+                     <div class="icon wow rubberBand" data-wow-delay="1.5s">
+                        <i class="fal fa-comments fa-5x" ></i>
                     </div>
-                    <h2>Market Your Business with a Custom Internet Presence.</h2>
+                    <h2>Digital Marketing</h2>
                     <ul class="homelist">
-                        <li><a href="">Search Engine Optimization</a></li>
-                        <li><a href="">Google AdWords</a></li>
-                        <li><a href="">Social Media Integration</a></li>
-                        <li><a href="">Lead Generation Tools</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/services/digital-marketing/#seo">Search Engine Optimization</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/services/digital-marketing/#social-media">Social Media Integration</a></li>
+                        <!-- <li><a href="<?php bloginfo('url'); ?>/services/digital-marketing/#social-media">Google AdWords</a></li>
+                        <li><a href="">Lead Generation Tools</a></li> -->
                     </ul>
                     <div class="btn pillwhite">
-                        <a href="">
+                        <a href="<?php bloginfo('url'); ?>/services/digital-marketing/">
                             Start Now
                         </a>
                     </div>
                 </div>
                 <div class="homebox wow fadeInUp">
-                    <div class="icon">
-                        <i class="fal fa-bullhorn fa-5x wow rubberBand" data-wow-delay="1.5s"></i>
+                    <div class="icon wow rubberBand" data-wow-delay="1.5s">
+                        <i class="far fa-chart-line fa-5x"></i>
                     </div>
-                    <h2>Tell your story through clear branding and messaging.</h2>
+                    <h2>Grow your business</h2>
                     <ul class="homelist">
-                        <li><a href="">Logo design</a></li>
-                        <li><a href="">Content writing</a></li>
-                       <li><a href="">Collateral Materials</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/services/grow-your-business/#sell">Sell Online</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/services/grow-your-business/#crm">Integrate with a CRM</a></li>
+                       <li><a href="<?php bloginfo('url'); ?>/services/grow-your-business/#contact-forms">Automate and Integrate</a></li>
                     </ul>
                     <div class="btn pillwhite">
-                        <a href="">
+                        <a href="<?php bloginfo('url'); ?>/services/grow-your-business">
                             Start Now
                         </a>
                     </div>

@@ -1,5 +1,11 @@
-.wow {
-  visibility: hidden;
+// .wow {
+//   visibility: hidden;
+// }
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
 }
 // @import "../layout/content-sidebar";
 // @import "../layout/sidebar-content";

@@ -1,3 +1,4 @@
+<div id="process"></div>
 <?php 
 // set counter
 $step = 0;

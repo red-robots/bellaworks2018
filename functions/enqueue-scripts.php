@@ -8,6 +8,12 @@
 		wp_enqueue_script('jquery');
 
 	
+	// wp_enqueue_style( 
+	// 		'acstarter-fontawesome', 
+	// 		get_template_directory_uri() . '/assets/sass/web-fonts-with-css/css/fontawesome-all.css', 
+	// 		array(), '20120206', 
+	// 		true 
+	// 	);
 
 	wp_enqueue_script( 
 			'acstarter-blocks', 

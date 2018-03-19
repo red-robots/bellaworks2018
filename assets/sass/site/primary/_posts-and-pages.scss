@@ -1,3 +1,8 @@
+h2 span { 
+  margin-top: -70px;        /* Size of fixed header */
+  padding-bottom: 70px; 
+  display: block; 
+}
 /* Home page */
 section.welcome {
 	width: 100%;
@@ -863,4 +868,49 @@ figure.effect-ruby:hover p {
 	opacity: 0;
 	-webkit-transform: translate3d(0,0,0) scale(.9);
 	transform: translate3d(0,0,0) scale(.9);
+}
+section.service-blocks {
+	@media screen and (min-width: $tabwidth) {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: stretch;
+	}
+}
+.service {
+	// width: 30%;
+	// float: left;
+	background-color: #fff;
+	text-align: center;
+	
+	margin-bottom: 15px;
+	line-height: 1.1;
+	-webkit-box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.35);
+	box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.35);
+	@include linearGradient();
+	color: #fff;
+	transform: scale(1);
+	@include transition(all ease .3s);
+	@media screen and (min-width: $tabwidth) {
+		flex-basis: 32%;
+	}
+	&:hover {
+		transform: scale(1.05f);
+		color: #fff;
+		// -webkit-box-shadow: 0px 3px 14px -1px rgba(0,0,0,0.61);
+		// -moz-box-shadow: 0px 3px 14px -1px rgba(0,0,0,0.61);
+		// box-shadow: 0px 3px 14px -1px rgba(0,0,0,0.61);
+	}
+	a {
+		display: block;
+		text-decoration: none;
+		color:#fff;
+		font-size: 28px;
+		padding: 10%;
+	}
+	.icon {
+		margin: 0 0 40px 0;
+	}
 }

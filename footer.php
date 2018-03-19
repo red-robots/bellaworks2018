@@ -101,6 +101,11 @@
 
 <!-- Start of HubSpot Embed Code -->
   <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3838522.js"></script>
+  <script type="text/javascript">
+  	$(window).load(function() {
+	  $("body").removeClass("preload");
+	});
+  </script>
 <!-- End of HubSpot Embed Code -->
 </body>
 </html>
