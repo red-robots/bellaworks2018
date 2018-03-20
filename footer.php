@@ -48,37 +48,38 @@
 					<ul>
 						<?php if($facebook != '') { ?>
 							<li class="facebook">
-								<i class="fab fa-facebook-f"></i>
-									<a target="_blank" href="<?php echo $facebook; ?>"></a>
+								
+									<a target="_blank" href="<?php echo $facebook; ?>"><i class="fab fa-facebook-f fa-3x"></i></a>
 								
 							</li>
 						<?php } ?>
 						<?php if($pinterest != '') { ?>
 							<li class="pinterest">
-								<i class="fab fa-pinterest-p">
-									<a target="_blank" href="<?php echo $pinterest; ?>"></a>
-								</i>
+								
+									<a target="_blank" href="<?php echo $pinterest; ?>"><i class="fab fa-pinterest-p fa-3x"></i></a>
+								
 							</li>
 						<?php } ?>
 						<?php if($instagram != '') { ?>
 							<li class="instagram">
-								<i class="fab fa-instagram">
-									<a target="_blank" href="<?php echo $instagram; ?>"></a>
-								</i>
+								
+									<a target="_blank" href="<?php echo $instagram; ?>"><i class="fab fa-instagram fa-3x"></i></a>
+								
 							</li>
 						<?php } ?>
 						<?php if($twitter != '') { ?>
 							<li class="twitter">
-								<i class="fab fa-twitter">
-									<a target="_blank" href="<?php echo $twitter; ?>"></a>
-								</i>
+								
+									<a target="_blank" href="<?php echo $twitter; ?>"><i class="fab fa-twitter fa-3x"></i></a>
+								
+
 							</li>
 						<?php } ?>
 						<?php if($linkedin != '') { ?>
 							<li class="linkedin">
-								<i class="fab fa-linkedin-in">
-									<a target="_blank" href="<?php echo $linkedin; ?>"></a>
-								</i>
+								
+									<a target="_blank" href="<?php echo $linkedin; ?>"><i class="fab fa-linkedin-in fa-3x"></i></a>
+								
 							</li>
 						<?php } ?>
 					</ul>

@@ -896,9 +896,16 @@ section.service-blocks {
 	@media screen and (min-width: $tabwidth) {
 		flex-basis: 32%;
 	}
+	.icon {
+		transform: scale(1);
+		@include transition(all ease .3s);
+	}
 	&:hover {
-		transform: scale(1.05f);
+		
 		color: #fff;
+		.icon {
+			transform: scale(1.1);
+		}
 		// -webkit-box-shadow: 0px 3px 14px -1px rgba(0,0,0,0.61);
 		// -moz-box-shadow: 0px 3px 14px -1px rgba(0,0,0,0.61);
 		// box-shadow: 0px 3px 14px -1px rgba(0,0,0,0.61);
@@ -909,6 +916,9 @@ section.service-blocks {
 		color:#fff;
 		font-size: 28px;
 		padding: 10%;
+		&:hover {
+			color: #fff;
+		}
 	}
 	.icon {
 		margin: 0 0 40px 0;
