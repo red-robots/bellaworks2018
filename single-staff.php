@@ -20,7 +20,7 @@ get_header(); ?>
 	// email  
 				 $email = get_field('email');
 ?>
-<div  class="side-left">
+<div  class="staff-left">
 <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" title="<?php echo $title; ?>" />
 
 
@@ -116,9 +116,11 @@ get_header(); ?>
     	
         
         		<div class="staff-circle">
-             
+             <?php if($thumb): ?>
                 	<img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" title="<?php echo $title; ?>" />
-                    
+                    <?php else: ?>
+                    	<i class="fas fa-user fa-3x"></i>
+                    <?php endif; ?>
                 	<div class="staff-circle-content">
                     <a href="<?php the_permalink(); ?>">
                     	<h3><?php the_title(); ?></h3>

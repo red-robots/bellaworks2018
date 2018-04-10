@@ -141,15 +141,15 @@
 			border-top: 0 solid #eee;
 			border-bottom: 0;
 			// color: #2E5975;
-			line-height: 2;
+			line-height: 1;
 			white-space: nowrap;
 			// transition: color 0.3s ease;
 		}
 		@media screen and (min-width: $tabwidth) {
-			// padding: 8px 10px ;
+			
 		}
 		@media screen and (min-width: $deskwidth) {
-			// padding: 8px 12px ;
+			line-height: 2;
 		}
 
 		&:hover {

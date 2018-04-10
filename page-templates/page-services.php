@@ -21,47 +21,54 @@ get_header(); ?>
                 	
 
                 	<?php if(is_page('services')) : ?>
-                		<section class="service-blocks">
-                		<div class="service">
-                            <a href="<?php bloginfo('url'); ?>/services/website-design-development/#strategy">
-                            <div class="icon"><i class="far fa-crosshairs fa-2x wow rubberBand" data-wow-delay="1.5s"></i></div>
-                                <span class="stitle">Custom Strategies</span>
-                            </a>
-                		</div>
-                		<div class="service">
-                			<a href="<?php bloginfo('url'); ?>/services/website-design-development/#next-level">
-                                <div class="icon"><i class="fal fa-desktop-alt fa-2x wow rubberBand" data-wow-delay="1.5s"></i></div>
-                                <span class="stitle">New Sites, Redesigns</span>
-                            </a>
-                		</div>
-                		<div class="service">
-                			<a href="<?php bloginfo('url'); ?>/services/digital-marketing/#social-media">
-                                <div class="icon"><i class="fal fa-share-alt fa-2x wow rubberBand" data-wow-delay="1.5s"></i></div>
-                                <span class="stitle">Social Media Integration</span>
-                            </a>
-                		</div>
-                		<div class="service">
-                            <a href="<?php bloginfo('url'); ?>/services/digital-marketing/#social-media">
-                                <div class="icon"></div>
-                                <span class="stitle">Social Media Integration</span>
-                            </a>
-                		</div>
-                		<!-- <div class="service">
-                            <div class="icon"></div>
-                			<a href="<?php bloginfo('url'); ?>/services/grow-your-business/#sell">Sell Online</a>
-                		</div> -->
-                		<div class="service">
-                            <a href="<?php bloginfo('url'); ?>/services/grow-your-business/#crm">
-                                <div class="icon"></div>
-                                <span class="stitle">Integrate with a CRM</span>
-                            </a>
-                		</div>
-                		<div class="service">
-                            <a href="<?php bloginfo('url'); ?>/services/grow-your-business/#contact-forms">
-                                <div class="icon"><i class="fal fa-magic fa-2x wow rubberBand" data-wow-delay="1.5s"></i></div>
-                                <span class="stitle">Automate and Integrate</span>
-                            </a>
-                		</div>
+                		<section class="service-intro">
+                		  <div class="sservice">
+                              <h2>Custom Design, Build, and Maintain Your Website</h2>
+                              <h3>Build smart websites that are strategically designed to achieve our your goals</h3>
+                              <ul>
+                                    <li>Custom build a new site</li>
+                                   <li>Redesign or update your current site</li>
+                                    <li>Create or refresh branding, logos, content, and collaterals</li>
+                                    <li>Host your site with us</li>
+
+                              </ul>
+                              <div class="btn pillblue">
+                                  <a href="<?php bloginfo('url'); ?>/services/website-design-development">
+                                  Build Now <i class="fas fa-angle-double-right"></i>
+                                  </a>
+                              </div> 
+                          </div>
+                          <div class="sservice">
+                              <h2>Implement Digital Marketing</h2>
+                              <h3>Boost your web presence with targeted digital marketing techniques.</h3>
+                              <ul>
+                                <li>Increase your search engine optimization</li>
+                                <li>Utilize social media</li>
+                                <li>Run digital paid campaigns</li>
+                                <li>Establish your Google business presence</li>
+
+                              </ul>
+                               <div class="btn pillblue">
+                                  <a href="<?php bloginfo('url'); ?>/services/digital-marketing">
+                                  Start Boosting <i class="fas fa-angle-double-right"></i>
+                                  </a>
+                              </div> 
+                          </div>
+                          <div class="sservice">
+                              <h2>Grow Your Business</h2>
+                              <h3>Reach your organization’s goals with smart, high performing solutions. </h3>
+                              <ul>
+                                <li>Implement e-commerce platforms</li>
+                                <li>Integrate Customer Relationship Management </li>
+                                <li>Connect with clients or members through interactive forms and calendars</li>
+
+                              </ul>
+                               <div class="btn pillblue">
+                                  <a href="<?php bloginfo('url'); ?>/services/grow-your-business">
+                                  Grow Now <i class="fas fa-angle-double-right"></i>
+                                  </a>
+                              </div> 
+                          </div>
                 		</section>
                 	<?php endif; ?>
                     

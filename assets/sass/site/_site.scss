@@ -40,6 +40,7 @@ body {
 	line-height: 1;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+.center {text-align: center;}
 ol,
 ul {
 	list-style: none;
@@ -396,6 +397,36 @@ img.wp-post-image {
 		}
 	}
 }
+.pillblue {
+
+	a {
+		border: {
+			color:rgba($color-blue, 1);
+			width: 1px;
+			style: solid;
+		}
+		background-color:rgba($color-green, 0);
+		
+		color: rgba($color-green, 1);
+		border-radius: 500px;
+		background: linear-gradient(to right, rgba($color-green, .7) 50%, rgba($color-green, 0) 50%);
+		background-size: 200% 100%;
+		background-position:right bottom;
+		@include transition(all .2s ease);
+		font-size: 2rem;
+		&:hover {
+			// background-color: rgba(#fff, 1);
+			background-position:left bottom;
+
+		}
+		@media screen and (min-width: $tabwidth) {
+			font-size: 1.2rem;
+		}
+		@media screen and (min-width: $deskwidth) {
+			font-size: 2rem;
+		}
+	}
+}
 /* Navigation */
 .site-content nav {
 	clear: both;
@@ -731,17 +762,23 @@ a:hover {
 	
 }
 .fix-nav {
-	position: fixed;
-	top: 0;
-	z-index: 9998;
+	@media screen and (min-width: $midwidth) {
+		position: fixed;
+		top: 0;
+		z-index: 9998;
+	}
 	.logo {
-		margin: 20px 0;
+		@media screen and (min-width: $midwidth) {
+			margin: 20px 0;
+		}
 	}
 	.header-right {
-		margin: 0;
+		@media screen and (min-width: $midwidth) {
+			margin: 0;
+		}
 	}
 	.main-navigation ul {
-		@media screen and (min-width: $tabwidth) {
+		@media screen and (min-width: $midwidth) {
 			margin: 0;
 		}
 	}
@@ -873,7 +910,7 @@ p {
 	
 	@media screen and (min-width: $tabwidth) {
 		width: auto;
-		margin: 0 0px 0 0px;
+		margin: -8px 0px 0 0px;
 		position: relative;
 		font-size: 16px;
 		position: relative;
@@ -884,6 +921,7 @@ p {
 	}
 	@media screen and (min-width: $deskwidth) {
 		font-size: 20px;
+		margin: 0px 0px 0 0px;
 	}
 	a {
 		text-decoration: none;
@@ -1205,6 +1243,12 @@ position: absolute;
 	margin: 10px;
 	position: relative;
 	float: left;
+	line-height: 70px;
+	text-align: center;
+	background-color: $color-green;
+	i, svg {
+		margin: 20px 0 0 0;
+	}
 }
 .staff-circle img {
 	width: 100%;
@@ -1237,7 +1281,7 @@ position: absolute;
 	text-align: center;
 	width: 90%;
 	position: absolute;
-	top: 20px;
+	top: 0px;
 	left: 5%;
 	// font-family: GauthierFY-Regular;
 	font-weight: normal;
@@ -1905,7 +1949,20 @@ h3.moreproj a:hover {
 		width: 100%;
 	}
 }
+.staff-left {
+	float: left;
+	width: 20.041666667%;
+	padding: 0 1% 0 1%;
+	@media screen and (min-width: $tabwidth) {
+		margin: 50px;
+	}
+	@media screen and (min-width: $deskwidth) {
 
+	}
+	img {
+		width: 100%;
+	}
+}
 .widget-area .widget {
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
