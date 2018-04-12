@@ -40,6 +40,21 @@ body {
 	line-height: 1;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+.gform_footer input[type=submit] {
+	box-shadow: none;
+	text-shadow: none;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 3px;
+	padding: 25px 45px;
+	background-color: $color-green;
+	border: 0;
+	@include transition(all ease .3s);
+	&:hover {
+		@include linearGradient();
+		color: #fff;
+	}
+}
 .center {text-align: center;}
 ol,
 ul {

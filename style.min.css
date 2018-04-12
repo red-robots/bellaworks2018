@@ -986,6 +986,8 @@ section.service-intro .sservice{width:100%;margin:0 0 40px 0;padding:30px 20px 4
 section.service-intro .sservice h3{color:#5fa03d;font-size:22px;font-style:italic}
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline}
 body{line-height:1;font-family:'Source Sans Pro',sans-serif}
+.gform_footer input[type=submit]{box-shadow:none;text-shadow:none;text-transform:uppercase;color:#fff;border-radius:3px;padding:25px 45px;background-color:#5fa03d;border:0;-webkit-transition:all ease .3s;transition:all ease .3s}
+.gform_footer input[type=submit]:hover{background:-webkit-gradient(linear,left top,right top,color-stop(0,#085884),color-stop(100%,#1874a6));background:-webkit-linear-gradient(0,#085884 0,#1874a6 100%);background:-webkit-linear-gradient(left,#085884 0,#1874a6 100%);background:linear-gradient(90deg,#085884 0,#1874a6 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#085884',endColorstr='#1874a6',GradientType=1);color:#fff}
 .center{text-align:center}
 ol,ul{list-style:none}
 blockquote,q{quotes:none}
