@@ -26,7 +26,7 @@ We design a custom online presence branded to align with your company, engage wi
         
 
         <div class="btn pillwhite">
-            <a href="" class="wow pulse startnow"   data-wow-iteration="2">
+            <a href="<?php bloginfo('url'); ?>/lets-do-this" class="wow pulse startnow"   data-wow-iteration="2">
                 Start Now
             </a>
         </div>
