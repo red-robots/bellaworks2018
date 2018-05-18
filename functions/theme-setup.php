@@ -62,41 +62,41 @@ function bellaworks_get_font_url() {
 /**
  * Enqueue scripts and styles for front-end.
  */
-function bellaworks_scripts_styles() {
-	global $wp_styles;
+// function bellaworks_scripts_styles() {
+// 	global $wp_styles;
 
-	/*
-	 * Adds JavaScript to pages with the comment form to support
-	 * sites with threaded comments (when in use).
-	 */
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) )
-		wp_enqueue_script( 'comment-reply' );
+// 	/*
+// 	 * Adds JavaScript to pages with the comment form to support
+// 	 * sites with threaded comments (when in use).
+// 	 */
+// 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) )
+// 		wp_enqueue_script( 'comment-reply' );
 
-	// Adds JavaScript for handling the navigation menu hide-and-show behavior.
-	wp_enqueue_script( 'bellaworks-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '1.0', true );
+// 	// Adds JavaScript for handling the navigation menu hide-and-show behavior.
+// 	wp_enqueue_script( 'bellaworks-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '1.0', true );
 
-	$font_url = bellaworks_get_font_url();
-	if ( ! empty( $font_url ) )
-		wp_enqueue_style( 'bellaworks-fonts', esc_url_raw( $font_url ), array(), null );
+// 	$font_url = bellaworks_get_font_url();
+// 	if ( ! empty( $font_url ) )
+// 		wp_enqueue_style( 'bellaworks-fonts', esc_url_raw( $font_url ), array(), null );
 
-	// Loads our main stylesheet.
-	//wp_enqueue_style( 'bellaworks-style', get_stylesheet_uri() );
+// 	// Loads our main stylesheet.
+// 	//wp_enqueue_style( 'bellaworks-style', get_stylesheet_uri() );
 	
-	// Loads colorbox
-	// wp_enqueue_style( 'bellaworks-colorbox', get_template_directory_uri() . '/css/colorbox.css', array( 'bellaworks-style' ), '20121010' );
-	wp_enqueue_style('bellaworks-style', get_stylesheet_directory_uri().'/style.css', false, null);
+// 	// Loads colorbox
+// 	// wp_enqueue_style( 'bellaworks-colorbox', get_template_directory_uri() . '/css/colorbox.css', array( 'bellaworks-style' ), '20121010' );
+// 	wp_enqueue_style('bellaworks-style', get_stylesheet_directory_uri().'/style.css', false, null);
 
-	wp_enqueue_style('bellaworks-roboto', 'https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700', false, null);
-	wp_enqueue_style('bellaworks-ubuntu', 'https://fonts.googleapis.com/css?family=Ubuntu:400,300,500', false, null);
-	// wp_enqueue_style('bellaworks-somefonts', '//hello.myfonts.net/count/2d8b74', false, null);
+// 	wp_enqueue_style('bellaworks-roboto', 'https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700', false, null);
+// 	wp_enqueue_style('bellaworks-ubuntu', 'https://fonts.googleapis.com/css?family=Ubuntu:400,300,500', false, null);
+// 	// wp_enqueue_style('bellaworks-somefonts', '//hello.myfonts.net/count/2d8b74', false, null);
 
-	wp_enqueue_style('bellaworks-style', get_stylesheet_directory_uri().'/style.min.css', false, null);
+// 	wp_enqueue_style('bellaworks-style', get_stylesheet_directory_uri().'/style.min.css', false, null);
 
-	// Loads the Internet Explorer specific stylesheet.
-	wp_enqueue_style( 'bellaworks-ie', get_template_directory_uri() . '/css/ie.css', array( 'bellaworks-style' ), '20121010' );
-	$wp_styles->add_data( 'bellaworks-ie', 'conditional', 'lt IE 9' );
-}
-add_action( 'wp_enqueue_scripts', 'bellaworks_scripts_styles' );
+// 	// Loads the Internet Explorer specific stylesheet.
+// 	wp_enqueue_style( 'bellaworks-ie', get_template_directory_uri() . '/css/ie.css', array( 'bellaworks-style' ), '20121010' );
+// 	$wp_styles->add_data( 'bellaworks-ie', 'conditional', 'lt IE 9' );
+// }
+// add_action( 'wp_enqueue_scripts', 'bellaworks_scripts_styles' );
 
 /**
  * Filter TinyMCE CSS path to include Google Fonts.
