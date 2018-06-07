@@ -118,7 +118,7 @@ We design a custom online presence branded to align with your company, engage wi
                 <p>Bellaworks has been doing web design and development work for clients in the Charlotte area and beyond for over a decade. If you consider that internet years are kind of, well, like dog years, this is a long time! We are a full scale firm and we welcome projects of all sizes, whether it be a simple website to get you started or a more complex endeavor. We can provide various levels of support both in the strategic development of your site and in its ongoing maintenance.</p>
 
                 <h3 class="center">We believe that</h3>
-   <p> - the partnership we develop with our clients in the earliest stages of projects and our ongoing relationships with them (or other description) is what sets Bellaworks apart.</p>
+   <p> - the partnership we develop with our clients in the earliest stages of projects and our ongoing relationships with them is what sets Bellaworks apart.</p>
 
     <p>We invite you to learn more about working with us.</p>
 
