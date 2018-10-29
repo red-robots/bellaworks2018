@@ -60,11 +60,11 @@
   "email" : "info@bellaworksweb.com",
   "address" : {
     "@type" : "PostalAddress",
-    "streetAddress" : "220 East Blvd #200a",
+    "streetAddress" : "3120 North Davidson Street Unit 200",
     "addressLocality" : "Charlotte",
     "addressRegion" : "North Carolina",
     "addressCountry" : "United States",
-    "postalCode" : "28203"
+    "postalCode" : "28205"
   },
   "url" : "https://bellaworksweb.com/",
   "sameAs": [
